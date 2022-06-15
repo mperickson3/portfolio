@@ -1,0 +1,99 @@
+.Logo {
+  /* transform: rotate(45deg); */
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  padding: 5px;
+}
+
+.MMaster {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  flex-direction: column;
+  display: flex;
+}
+
+.M {
+  background-color: white;
+  width: 0px;
+  /* height: 30px; */
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  transition-delay: 1s;
+  transition-timing-function: linear;
+  transition-duration: 2s;
+  height: 2px;
+}
+
+.leftM {
+  background-color: black;
+  width: 2px;
+  height: 0px;
+  margin-right: 13px;
+  transition-timing-function: linear;
+  transition-duration: 4s;
+  transition-delay: 1s;
+}
+
+.rightM {
+  background-color: black;
+  width: 2px;
+  height: 0px;
+  margin-left: 13px;
+  transition-timing-function: linear;
+  transition-duration: 3s;
+  transition-delay: 2s;
+}
+
+.E {
+  background-color: white;
+  border: black;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  transition-timing-function: linear;
+
+  transition-delay: 1s;
+}
+
+.topE {
+  background-color: black;
+  width: 0px;
+  margin-top: 0px;
+  height: 2px;
+  transition-timing-function: linear;
+  transition-duration: 2s;
+  transition-delay: 3s;
+}
+
+.middleE {
+  background-color: black;
+  width: 0px;
+  transition-delay: 4s;
+  margin-top: 40%;
+  height: 2px;
+  transition-timing-function: linear;
+  transition-duration: 2s;
+}
+
+.bottomE {
+  background-color: black;
+  width: 0px;
+  transition-delay: 5s;
+  margin-top: 40%;
+  height: 2px;
+  transition-timing-function: linear;
+  transition-duration: 2s;
+}
+.I {
+  background-color: black;
+  width: 3px;
+  height: 0px;
+  transition-delay: 3s;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
