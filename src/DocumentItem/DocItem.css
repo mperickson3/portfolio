@@ -1,0 +1,33 @@
+.title {
+  width: 85vw;
+  margin-left: 1vmin;
+  background-color: #0e1929;
+}
+
+.ContentButton {
+  margin: 0 0 0 5vw;
+  max-width: 40px;
+  width: 8vmin;
+  height: auto;
+  transform: rotate(0deg);
+  transition: 0.2s;
+  background-color: #0e1929;
+}
+
+.content {
+  background-color: #0e1929;
+  max-height: 0vh;
+  margin: 0 10vw 0 10vw;
+  transition: 0.4s;
+  white-space: pre-line;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.image {
+  margin: 0 0 0 0vw;
+  width: 80vw;
+  height: auto;
+}
